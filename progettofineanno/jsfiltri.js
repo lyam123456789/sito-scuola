@@ -4,7 +4,7 @@ function search() {
     const keyword = document.getElementById('keyword').value.toLowerCase();
     const resultsDiv = document.getElementById('results');
 
-    // Simulazione di risultati di ricerca (normalmente qui ci sarebbe una chiamata AJAX al server)
+    // chiamata al db + query
     const items = [
         { id: 1, category: 'categoria1', name: 'Oggetto 1' },
         { id: 2, category: 'categoria2', name: 'Oggetto 2' },
