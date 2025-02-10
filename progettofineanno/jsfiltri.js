@@ -1,4 +1,4 @@
-// scripts.js
+
 function search() {
     const category = document.getElementById('category').value;
     const keyword = document.getElementById('keyword').value.toLowerCase();
