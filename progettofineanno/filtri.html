@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di Filtraggio e Ricerca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Pagina Principale</a>
+    </header>
+    <main>
+        <h1>Filtraggio e Ricerca</h1>
+        <form id="searchForm">
+            <label for="category">Categoria:</label>
+            <select id="category">
+                <option value="all">Tutte</option>
+                <option value="categoria1">Categoria 1</option>
+                <option value="categoria2">Categoria 2</option>
+                <option value="categoria3">Categoria 3</option>
+            </select>
+            <label for="keyword">Parola chiave:</label>
+            <input type="text" id="keyword" placeholder="Inserisci parola chiave">
+            <button type="button" onclick="search()">Cerca</button>
+        </form>
+        <div id="results"></div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
 
